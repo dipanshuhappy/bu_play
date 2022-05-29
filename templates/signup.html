@@ -28,7 +28,7 @@
                 <img style="align-self:center ;margin-left: 16px" src="{{ url_for('static',filename='images/lock.svg') }}" width="21px" height="21px"/>
                 <input  placeholder="Password" name="password" class="input-field" type="password">
             </div>
-            <button onclick="makeUser(event) " id="submit" class="submit">Create Account</button>
+            <button onclick="makeOtp(event) " id="submit" class="submit">Create Account</button>
          </form>
         </div>
         <div class="box-content" id="otp" style="display: none;">
@@ -82,7 +82,7 @@
                 data:data,
                 dataType:"json",
                 success:function(res){
-                    console.log(res)
+                    window.location.href = '/login'
                 },
                 error:function(res){
                     console.log()

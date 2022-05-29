@@ -13,92 +13,90 @@ body {
   background: #3d3c66;
   border-radius: 32px;
 }
-.acad-coin{
-position: absolute;
-width: 100px;
-height: 100px;
-left: 27px;
-top: 190px;
-}
-.acad{
-position: absolute;
-width: 67px;
-height: 17px;
-left: 127px;
-top: 196px;
-
-font-family: 'Aileron';
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 17px;
-/* identical to box height */
-
-
-color: #FFFFFF;
-}
-.acad-score{
-position: absolute;
-width: 15px;
-height: 14px;
-left: 132px;
-top: 219px;
-
-font-family: 'Aileron';
-font-style: normal;
-font-weight: 600;
-font-size: 13px;
-line-height: 14px;
-
-color: #7B79B6;
-
-}
-
-.cult-coin{
+.sigma-coin {
   position: absolute;
   width: 100px;
   height: 100px;
-  left: 227px;
+  left: 27px;
   top: 190px;
-  }
-  .cult{
+}
+.sigma {
   position: absolute;
-  width: 67px;
+  width: 80px;
   height: 17px;
-  left: 327px;
+  left: 127px;
   top: 196px;
-  
-  font-family: 'Aileron';
+
+  font-family: "Aileron";
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 17px;
   /* identical to box height */
-  
-  
-  color: #FFFFFF;
-  }
-  .cult-score{
+
+  color: #ffffff;
+}
+.sigma-score {
   position: absolute;
   width: 15px;
   height: 14px;
-  left: 332px;
-  top: 219px;
-  
-  font-family: 'Aileron';
+  left: 130px;
+  top: 220px;
+
+  font-family: "Aileron";
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 14px;
-  
-  color: #7B79B6;
-  
-  }
+
+  color: #7b79b6;
+}
+
+.alpha-coin {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 227px;
+  top: 190px;
+}
+.alpha {
+  position: absolute;
+  width: 80px;
+  height: 17px;
+  left: 327px;
+  top: 196px;
+  display: inline-block;
+
+  font-family: "Aileron";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.alpha-score {
+  position: absolute;
+  width: 15px;
+  height: 14px;
+  left: 329px;
+  top: 220px;
+
+  font-family: "Aileron";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 14px;
+
+  color: #7b79b6;
+}
 .box-2 {
   box-sizing: border-box;
   width: 83px;
   height: 83px;
-  background: url(profile.jpg);
+  background: url(profilepic.png);
+  object-fit: cover;
   border: 2px solid #7b79b6;
   border-radius: 10px;
   margin-bottom: 180px;
@@ -163,7 +161,6 @@ color: #7B79B6;
   line-height: 38px;
   color: #ffffff;
 }
-
 
 .efficiency-score {
   width: 100%;
@@ -369,6 +366,7 @@ a {
   clear: both;
   position: relative;
   padding-top: 24px;
+  overflow-x: hidden;
 }
 .card-name {
   font-size: 13px;
@@ -403,7 +401,7 @@ a {
   position: absolute;
   width: 806px;
   height: 58px;
-  left: 563px;
+  left: 513px;
   top: 605px;
 
   background: linear-gradient(

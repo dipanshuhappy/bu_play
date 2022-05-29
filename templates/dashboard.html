@@ -20,28 +20,26 @@
             <div class="xp-score">444/5000 XP</div>
           </div>
           <div class="user-info">
-            <p class="name">Swaraj</p>
-            <p class="roll">E21CSEU0295</p>
+            <p class="name">Sanorita</p>
+            <p class="roll">E21CSEU0227</p>
           </div>
         </div>
       </div>
       <div>
-        <img src="{{ url_for('static',filename='images/acad-coin.png') }}" class="acad-coin">
-        <p class="acad">Acad Coin</p>
-        <p class="acad-score">60</p>
+        <img src="{{ url_for('static',filename='images/cult-coin.png') }}" class="sigma-coin" />
+        <p class="sigma">Sigma Coin</p>
+        <p class="sigma-score">60</p>
       </div>
       <div>
-        <img src="{{ url_for('static',filename='images/cult.png') }}" class="cult-coin">
-        <p class="cult">Cult Coin</p>
-        <p class="cult-score">600</p>
+        <img src="{{ url_for('static',filename='images/acad-coin.png') }}" class="alpha-coin" />
+        <p class="alpha">Alpha Coin</p>
+        <p class="alpha-score">600</p>
       </div>
-      
+
       <span class="efficiency-score">
-        <div>
-          Efficiency score
-          
-        </div>
-        <p class="number">144</p><br>
+        <div>Efficiency score</div>
+        <p class="number">144</p>
+        <br />
       </span>
       <div class="attributes">
         <div class="attribute">
@@ -96,7 +94,7 @@
           </article>
           <article class="card">
             <header class="card-header">
-              <img src="hackathon.jpg" width="275px" height="285px" />
+              <img src="{{ url_for('static',filename='images/hackathon.jpg') }}" width="275px" height="285px" />
               <div class="card-name">
                 <a
                   href="https://unstop.com/hackathon/data-challenge-ii-henry-harvin-education-328792"
@@ -108,19 +106,24 @@
           </article>
           <article class="card">
             <header class="card-header">
-              <img src="{{ url_for('static',filename='images/sunset.png') }}" width="265px" height="285px" />
+              <img src="{{ url_for('static',filename='images/sunset.jpeg') }}" width="265px" height="285px" />
               <div class="card-name"><a href="">Register</a></div>
             </header>
           </article>
         </section>
       </div>
       <p class="achievements">Pending Rewards</p>
-      <div class="coin-redeem">
-        <p class="box-text">
-          You have earned 50 coins from the math quiz you have given today
-        </p>
+    
+        <div class="coin-redeem">
+          <p class="box-text">
+            You have earned 50 coins from the math quiz you have given today
+          </p>
+          
+        </div>
       </div>
-    </div>
-    <button class="redeem" value="">REDEEM</button>
+      <button class="redeem">REDEEM</button>
+      
+    
+    <script src="{{ url_for('static',filename='js/dashboard.js') }}"></script>
   </body>
 </html>
