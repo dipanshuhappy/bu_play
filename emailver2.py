@@ -10,8 +10,8 @@ mail=Mail(app)
 
 app.config["MAIL_SERVER"]='smtp.gmail.com'
 app.config["MAIL_PORT"]=587
-app.config["MAIL_USERNAME"]='tanisha0714@gmail.com'
-app.config['MAIL_PASSWORD']='mayGodblessme'                    #you have to give your password of gmail account
+app.config["MAIL_USERNAME"]='xyz@gmail.com'
+app.config['MAIL_PASSWORD']='***'                    #you have to give your password of gmail account
 app.config['MAIL_USE_TLS']=True
 app.config['MAIL_USE_SSL']=False
 mail=Mail(app)
